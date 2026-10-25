@@ -7,7 +7,13 @@
 	"authors": [
 		"OctoMiku01"
 	],
+	"contact": {
+		"homepage": "https://github.com/OctoMiku01/Stellarity-Pearl-Restore",
+		"sources": "https://github.com/OctoMiku01/Stellarity-Pearl-Restore",
+		"issues": "https://github.com/OctoMiku01/Stellarity-Pearl-Restore/issues"
+	},
 	"license": "MIT",
+	"icon": "assets/stellarity_pearl_restore/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
