@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "stellarity_pearl_restore",
+	"version": "${version}",
+	"name": "Stellarity Pearl Restore",
+	"description": "Endermen drop Ender Pearls again instead of Chorus Fruit with Stellarity installed.",
+	"authors": [
+		"OctoMiku01"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.octomiku01.stellaritypearls.StellarityPearlRestore"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"recommends": {
+		"stellarity": "*"
+	}
+}
